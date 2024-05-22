@@ -23,7 +23,7 @@ To setup CI/CD pipeline in heruko we need 3 information
 HEROKU_EMAIL=ramalatha0419@gmail.com
 ```
 ```
-HERUKO_API_KEY=HRKU-10beb8e9-1ec0-41c4-a76c-e01a3e7533ba
+HERUKO_API_KEY=<>
 ```
 ```
 HERUKO_APP_NAME=harshith-ml-regression
@@ -42,4 +42,16 @@ docker image
 Run docker image
 ```
 docker run -p 5000:5000 -e PORT=5000 
+```
+
+
+To check running container in docker
+```
+docker ps
+```
+
+
+To stop docker container
+```
+docker stop <container_id>
 ```
